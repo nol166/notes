@@ -3,9 +3,13 @@ const router = express.Router()
 const s = require('../db/store')
 
 // `GET /api/notes` should read the `db.json` file and return all saved notes as JSON
-router.get('/api/notes', (req, res) => {
+router.get('/notes', (req, res) => {
+    console.log('you are trying to get notes')
     s.getNotes()
-        .then(notes => res.json(notes))
+        .then(notes => {
+            console.log(notes)
+            res.json(notes)
+        })
         .catch(err => res.status(500).json(err))
 })
 
@@ -15,7 +19,8 @@ router.get('/api/notes', (req, res) => {
   a way to give each note a unique id when it's saved 
   (look into `npm` packages that could do this for you).
 */
-router.post('/api/notes', (req, res) => {
+router.post('/notes', (req, res) => {
+    console.log('you posted a note')
     s.addNote(req.body)
         .then(notes => res.json(notes))
         .catch(err => res.status(500).json(err))

@@ -1,8 +1,1 @@
-[
-    { "title": "Test Title", "text": "Test text", "id": "test_id" },
-    { "title": "Test Title", "text": "Test text", "id": "test_id" },
-    { "title": "Test Title", "text": "Test text", "id": "test_id" },
-    { "title": "Test Title", "text": "Test text", "id": "test_id" },
-    { "title": "Test Title", "text": "Test text", "id": "test_id" },
-    { "title": "Test Title", "text": "Test text", "id": "test_id" }
-]
+[{"title":"Test Title","text":"Test text","id":"test_id"},{"title":"Test Title","text":"Test text","id":"test_id"},{"title":"Test Title","text":"Test text","id":"test_id"},{"title":"Test Title","text":"Test text","id":"test_id"},{"title":"Test Title","text":"Test text","id":"test_id"},{"title":"Test Title","text":"Test text","id":"test_id"},{"title":"This is  a note","text":"This is  anode","id":"0ee695e5-248d-4a5e-abd9-1ad7ee4ab216"}]
